@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <title>tickett</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <img src="images/lolo.svg" alt="center">
+      <img src="images/right-logo.jpg" alt="">
+      <ul>
+        <li><a href="#"  class="active" style="--navAni:1">Home</a></li>
+        <li><a href="#" style="--navAni:2">Services</a></li>
+        <li><a href="#" style="--navAni:3">Tickets</a></li>
+        <li><a href="#" style="--navAni:4">Contact Us</a></li>
+        <li><a href="#" style="--navAni:5">Log in/Sign Up</a></li>
+    </ul>
+    </div>
+    <div class="main">
+      <div class="form">
+        <div class="head">
+        </div>
+        <div class="body">
+          <div class="body-img">
+            <align class="center"></align>
+            <div class="text">
+              <h2>BOOK TICKET</h2>
+             
+            </div>
+          </div>
+          <div class="form-input">
+            <i class="fa-solid fa-loc"></i><input type="text" placeholder="From">
+            <div class="arrow"><i class="fa-solid fa-up-long"></i><i class="fa-solid fa-down-long"></i></div>
+            <i class="fa-solid fa-location-dot loc"></i><input type="text" placeholder="To">
+
+            <label for="data"></label>
+            <input type="date" name="" id="">
+
+            <i class="fa-solid fa-briefcase"></i><select name="classes" id="">
+              <option value="All classes"selected>All Classes</option>
+              <option value="First class">AC First Class(1A)</option>
+              <option value="Second class">AC Second Class(2A)</option>
+              <option value="Third class">AC Third Class(3A)</option>
+              <option value="Sleeper">Sleeper(SL)</option>
+              <option value="Second Sitting">Second Sitting(2S)</option>
+            </select>
+
+            <i class="fa-brands fa-microsoft"></i><select name="classes" id="">
+              <option value="general"selected>General</option>
+              <option value="Ladies">Ladies</option>
+              <option value="Lower birth/Senior citizen">LOWER BIRTH/SENIOR CITIZEN</option>
+              <option value="Person with disability">PERSON WITH DISABILITY</option>
+              <option value="duty pass">DUTY PASS</option>
+              <option value="Tatkal">TATKAL</option>
+              <option value="premium tatkal">PREMIUM TATKAL</option>
+            </select>
+            
+            <div class="options">
+              <input type="radio" name="opt">Person with Disability Concession
+              <br>
+              <input type="radio" name="opt">Flexible with Date
+              <br>
+              <input type="radio" name="opt">Train with available Berth
+              <br>
+              <input type="radio" name="opt">Railway pass Concession
+
+            </div>
+            <button>Search</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
